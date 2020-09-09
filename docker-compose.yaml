@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  web:
+    image: rizatdinov/test_mysql:latest
+    ports:
+      - 3306:3306
+  
