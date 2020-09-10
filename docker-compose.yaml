@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   web:
-    image: rizatdinov/test_mysql:latest
+    image: rizatdinov/backend:latest
     ports:
-      - 3306:3306
+      - 80:80
   
